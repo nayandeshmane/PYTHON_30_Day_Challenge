@@ -1,0 +1,17 @@
+##Write a Python function to reverse a string without using slicing.
+#Example:
+#Input: "Hey, How are you? "
+#Output: "?uoy era woH ,yeH"
+#1) FIRST METHOD
+def reverse():
+    string="Hey,How are you?"
+    reverse_string=""
+    for char in string:
+        reverse_string=char + reverse_string
+    print(reverse_string)
+reverse()
+
+#2)SECOND METHOD
+sting="?uoy era woH,yeH"
+reverse="".join(reversed(sting))
+print(reverse)    
