@@ -1,0 +1,18 @@
+#Write a function to check if a given number is a palindrome.
+#Example:
+#Input: 121
+#Output: True
+
+def palindrome():
+    Number=121
+    reverse=""
+    for char in str(Number):
+        reverse=char + reverse
+    print(reverse)
+    
+    if str(Number)==reverse:
+        print("True")
+    else:
+        print("False")
+        
+palindrome()
