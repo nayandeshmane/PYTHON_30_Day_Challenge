@@ -1,0 +1,19 @@
+# Write a Python program to calculate the factorial of a number using both recursion and iteration.
+num=int(input("Enter the number:"))
+fact=1
+a=1
+while a<=num:
+    fact=fact*a
+    a+=1
+print("factorial is:",fact)
+
+print("*********************************************************")
+
+num1=int(input("Enter the number:"))
+fact1=1
+a1=1
+for i in range(a1,num1+1):
+    fact1=fact1*a1
+    a1+=1
+print(fact1)
+
