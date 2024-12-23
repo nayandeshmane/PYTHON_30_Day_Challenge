@@ -1,0 +1,12 @@
+variable="apple"
+count_vowels="0"
+count_consonants="0"
+vowels="aeiouAEIOU"
+for i in variable:
+    if i in vowels:
+        count_vowels+=1
+    else:
+        count_consonants+=1
+
+print("count_vowel:", count_vowels)
+print("count_consonents:", count_consonants)
