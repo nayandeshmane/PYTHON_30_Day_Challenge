@@ -1,7 +1,7 @@
 variable="apple"
-count_vowels="0"
-count_consonants="0"
-vowels="aeiouAEIOU"
+count_vowels=0
+count_consonants=0
+vowels="AEIOUaeiou"
 for i in variable:
     if i in vowels:
         count_vowels+=1
