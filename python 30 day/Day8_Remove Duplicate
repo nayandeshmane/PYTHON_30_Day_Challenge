@@ -1,0 +1,16 @@
+# Remove Duplicates from a String
+# Remove duplicate characters from a string and print the result.
+# Example:
+# Input: "programming"
+# Output: "progamin"
+
+def remove_duplicates(input_string):
+    result = ""
+    for char in input_string:
+        if char not in result:
+            result += char
+    return result
+input_string = "programming"
+output = remove_duplicates(input_string)
+print("Input:", input_string)
+print("Output:", output)
