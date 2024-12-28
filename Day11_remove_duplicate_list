@@ -1,0 +1,11 @@
+# Remove Duplicates from a List
+# Write a Python program to remove duplicates from a list while maintaining the order.
+# Example:
+# Input: [1, 2, 2, 3, 4, 4]
+# Output: [1, 2, 3, 4]
+# Example list
+
+my_list = [1, 2, 2, 3, 4, 4]
+unique_list = list(set(my_list))
+
+print(unique_list)
