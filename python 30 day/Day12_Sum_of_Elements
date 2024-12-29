@@ -1,0 +1,13 @@
+# Sum of Elements
+# Write a Python program to find the sum of all elements in a list.
+
+given_list=[10,20,30,40,50]
+Total_sum=0
+for i in given_list:
+    Total_sum+=i
+print("sum of elements:",Total_sum)
+
+print("**********************************************")
+
+given_list1=[1,16,20,44,33,77,8,63]
+print("The sum of elements list:", sum(given_list1))
