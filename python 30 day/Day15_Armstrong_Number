@@ -1,0 +1,18 @@
+# Armstrong Number
+# Check if a number is an Armstrong number.
+# Example:
+# Input: 153
+# Output: True
+
+num=154
+a=len(str(num))
+arm=0
+
+for i in str(num):
+    arm += int(i)**a
+print(arm)    
+
+if num == arm:
+    print("It's armstrong number")
+else:
+    print("It's not armstrong number")
