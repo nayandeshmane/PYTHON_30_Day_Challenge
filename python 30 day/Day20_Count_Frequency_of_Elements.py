@@ -3,6 +3,8 @@
 # Example:
 # Input: [1, 2, 2, 3]
 # Output: {1: 1, 2: 2, 3: 1}
+
+
 input_list = [1, 2, 2, 3]
 def count_frequency(lst):
     frequency = {}
@@ -14,6 +16,5 @@ def count_frequency(lst):
     return frequency
 
 
-#input_list = [1, 2, 2, 3]
 output = count_frequency(input_list)
 print(output)
